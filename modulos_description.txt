@@ -1,0 +1,25 @@
+express -- express es un framework del lado del backend solo en node.js se utiliza para la creacion de aplicaciones del backend
+
+express-handlebars -- es la integracion de un motor de plantillas  handlebars en express
+
+express-session -- administra las secciones de nuestra app, sera necesario para autenticar a un usuario mas tarde
+
+mysql -- es un modulo npm para conectarnos a la bases de datos en mysql, este no es la bases de datos solo es la coneccion a la bases de datos, solo sirve para conectarnos y hacer consultas
+
+express-mysql-session -- este modulo almacenara las secciones en la bases de datos, en lugar del servidor. esto es ideal cuando la aplicacion este en produccion
+
+morgan -- permite crear log o mensajes de que es lo que las aplicaciones clientes estan pidiendo al servidor
+
+bcryptjs -- este modulo nos va a servir a encriptar las passwords antes de almacenarla en la bases de datos
+
+passport -- este modulo para autenticar, y manejar el proceso de login de un usuario en nuestra aplicacion por ejemplo aqui podemos logearnos con google faceboook o twiter etc...
+
+passport-local -- es un complemento de passport para autenticar a los usuario desde nuestra propia bases de datos
+
+timeaho.js -- convierte lo timestamps o fechas de las bases de datos en un formato de: 2 minutes ago, 2 hours ago etc etc etc 
+
+connect-flash -- lo usaremos para mostrar mensajes de error o de exito cuando el usuario realice una operacion
+
+express-validator -- es un modulo para validar los datos que el usuario nos envia desde la aplicacion cliente
+
+nodempn -D -- es un modulo de npm para cada ves que hagamos un cambio en javascript se reinicie automaticamente la consola
